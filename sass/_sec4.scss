@@ -1,0 +1,32 @@
+/*-------------------------------------------------------------------------------------
+SECCION 4---------------------------------
+-----------------------------------------------------------------------------------*/
+#body4 {
+    font-family: $font1;
+    background-color: black;
+    color: white;
+    #imgsec4 {
+        width: 100%;
+        height: 580px;
+        object-fit: contain;
+        object-position: center;
+    }
+}
+
+
+
+main table, th, td {
+    margin-left: 20%;
+    border: 1px dashed blueviolet;
+}
+
+.section2__iframe1 {
+    float: right;
+    width: 350px;
+    margin: 10px;
+}
+
+.section2__iframe2 {
+    @extend .section2__iframe1;
+    float: left;
+}

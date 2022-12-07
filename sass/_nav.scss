@@ -1,0 +1,55 @@
+/*----------------------------------------------------------------
+NAVEGADOR------------
+----------------------------------------------------------------*/
+.nav1 {
+    position: sticky;
+    width: 100%;
+    transition: 5s;
+    font-family: 'Monoton', cursive;
+    font-size: 30px;
+    font-weight: strong;
+    border-radius: 5px;
+    &:hover {
+        width: 100%;
+        background-color: rgba(137, 43, 226, 0.418);
+        background-image: url(/images/stars1.png);
+        object-fit: cover;
+        background-position: center bottom;
+        font-size: 30px;
+        font-weight: strong;
+        & img {
+            background-image: url(/images/stars1.png);
+            object-fit: cover;
+            object-position: right;
+        }
+    }
+    &__cont1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 50px;
+        padding-right: 50px;
+        & a {
+            color: rgb(161, 68, 161);
+            text-align: center;
+            text-decoration: none;
+            padding: 8px;
+            margin: 6px;
+            transition: 2.5s;
+            font-size: 30px;
+            font-weight: strong;
+                &:hover {
+                    font-family: 'Monoton', cursive;
+                    font-size: 30px;
+                    font-weight: strong;
+                    color: white;
+                    text-align: center;
+                    text-decoration: none;
+                    padding: 8px;
+                    margin: 6px;
+                }
+        }
+    }
+}

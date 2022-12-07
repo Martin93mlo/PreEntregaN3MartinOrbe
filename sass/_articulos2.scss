@@ -1,0 +1,59 @@
+@mixin articulos2(){
+    margin: 15px;
+    justify-self: stretch;
+    list-style: none;
+    & a{
+        color: white;
+    background-color: $background1;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 3px;
+        &:hover {
+            color: red;
+            font-weight: bold;
+            border: 1px solid red;
+        }
+    }
+    & img {
+        float: right;
+        padding: 8px;
+        margin: 5px;
+        width: 400px;
+        min-width: 150px;
+    }
+
+}
+/*------------------------------------*/
+.art1 {
+    @include articulos2()
+}
+/*------------------------------------*/
+.art2 {
+    @include articulos2()
+}
+/*------------------------------------*/
+.art3 {
+    @include articulos2()
+}
+/*------------------------------------*/
+.art4 {
+    @include articulos2()
+}
+/*------------------------------------*/
+.art5 {
+    @include articulos2()
+}
+/*------------------------------------*/
+.art6 {
+    @include articulos2()
+}
+/*------------------------------------*/
+.art7 {
+    @include articulos2()
+}
+/*------------------------------------*/
+.art8 {
+    @include articulos2()
+}
+/*------------------------------------*/

@@ -1,0 +1,61 @@
+/*-----------------------------------------------------------------------------------------
+SECCION 3 ---------------------------------
+---------------------------------------------------------------------------------------*/
+#body3 {
+    font-family: $font1;
+    background-image: url(/images/bgwall4.jpg);
+    color: white;
+    #imgsec3 {
+        width: 100%;
+        height: 580px;
+        object-fit: cover;
+        object-position: top;
+        margin-bottom: 0;
+    }
+    
+}
+
+
+
+.frontimage1 {
+    margin-left: 30%;
+    width: 600px;
+}
+
+.robots-index__li1 {
+    background-color: rgb(84, 15, 15);
+    font-size: 30px;
+    padding: 5px;
+    margin: 1px;
+    border: 2px solid white;
+    &:hover {
+        font-size: 30px;
+        transition: 2s;
+        padding: 5px 700px 5px 5px;
+        margin: 1px;
+        border: 2px solid white;
+        background: linear-gradient(to right, rgb(84, 15, 15), rgb(24, 24, 78), rgb(67, 4, 67));
+        &::after {
+            content: " Bangalter";
+            &:hover {
+                transition: 2s;
+            }
+        }
+    }
+}
+
+.robots-index__li2 {
+    @extend .robots-index__li1;
+    &:hover {
+        padding: 5px 500px 5px 5px;
+        &::after {
+            content: "uel de Homem-Christo";
+            &:hover {
+                transition: 2s;
+            }
+        }
+    }
+}
+
+
+@import "articulos3";

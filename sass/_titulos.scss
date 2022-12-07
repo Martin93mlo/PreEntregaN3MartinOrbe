@@ -1,0 +1,18 @@
+@mixin titulos(){
+    font-family: $font2;
+    padding-left: 30px;
+}
+
+h1 {
+    @include titulos();
+    text-align: center;
+}
+h2 {
+    @include titulos();
+}
+h3 {
+    @include titulos();
+}
+h4 {
+    @include titulos();
+}

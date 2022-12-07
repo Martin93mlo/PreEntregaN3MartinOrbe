@@ -1,0 +1,33 @@
+/*--------------------------------------------------------------------------------------
+SECCION 5 -----------------------------------------------
+--------------------------------------------------------------------------------------*/
+#body5 {
+    font-family: 'Sarabun', sans-serif;
+    background-image: url(/images/dp5-3.jpg);
+    object-fit: contain;
+    color: white;
+    & p {
+        padding: 15px;
+    }
+    #imgsec5 {
+        width: 100%;
+        height: 580px;
+        object-fit: contain;
+        object-position: center;
+    }
+}
+
+
+
+.form-5 {
+    color: blueviolet;
+    width: 500px;
+    margin-left: 30%;
+}
+
+.form-5 img {
+    width: 250px;
+    object-fit: cover;
+    margin-left: 25%;
+    border-radius: 50px;
+}

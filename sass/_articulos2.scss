@@ -1,4 +1,4 @@
-@mixin articulos2(){
+.art1 {
     margin: 15px;
     justify-self: stretch;
     list-style: none;
@@ -22,38 +22,47 @@
         width: 400px;
         min-width: 150px;
     }
-
-}
-/*------------------------------------*/
-.art1 {
-    @include articulos2()
 }
 /*------------------------------------*/
 .art2 {
-    @include articulos2()
+   @extend .art1;
+   & img {
+    float: left;
+   }
+   
 }
 /*------------------------------------*/
 .art3 {
-    @include articulos2()
+    @extend .art1;
 }
 /*------------------------------------*/
 .art4 {
-    @include articulos2()
+    @extend .art1;
+    & img {
+        float: left;
+       }
 }
 /*------------------------------------*/
 .art5 {
-    @include articulos2()
+    @extend .art1;
 }
 /*------------------------------------*/
 .art6 {
-    @include articulos2()
+    @extend .art1;
+    & img {
+        float: left;
+       }
 }
 /*------------------------------------*/
 .art7 {
-    @include articulos2()
+    @extend .art1;
+    
 }
 /*------------------------------------*/
 .art8 {
-    @include articulos2()
-}
+    @extend .art1;
+    & img {
+        float: left;
+       }
+    }
 /*------------------------------------*/

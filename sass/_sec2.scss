@@ -6,7 +6,7 @@ INDEX ----------
 ----------------------------------*/
 #body2 {
     font-family: $font1;
-    background-image: url(/images/bgseccion2-4.jpg);
+    background-image: url(../images/bgseccion2-4.jpg);
     color: white;
     #imgsec2 {
         width: 100%;
@@ -24,7 +24,7 @@ INDEX ----------
                 font-family: 'Monoton', cursive;
                 font-size: 25px;
                 text-align: center;
-                background-image: url(/images/bggif4.jpg);
+                background-image: url(../images/bggif4.jpg);
                 object-fit: contain;
                 background-position: center center;
                 margin: 5px;
@@ -33,7 +33,7 @@ INDEX ----------
                 border-radius: 5%;
                 width: 220px;
                 &:hover {
-                    background-image: url(/images/robotrock.gif);
+                    background-image: url(../images/robotrock.gif);
                     object-fit: cover;
                     background-position: center center;
                     font-size: 25px;

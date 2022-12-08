@@ -12,13 +12,13 @@ NAVEGADOR------------
     &:hover {
         width: 100%;
         background-color: rgba(137, 43, 226, 0.418);
-        background-image: url(/images/stars1.png);
+        background-image: url(../images/stars1.png);
         object-fit: cover;
         background-position: center bottom;
         font-size: 30px;
         font-weight: strong;
         & img {
-            background-image: url(/images/stars1.png);
+            background-image: url(../images/stars1.png);
             object-fit: cover;
             object-position: right;
         }

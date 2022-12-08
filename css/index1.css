@@ -39,13 +39,13 @@ NAVEGADOR------------
   .nav1:hover {
     width: 100%;
     background-color: rgba(137, 43, 226, 0.418);
-    background-image: url(/images/stars1.png);
+    background-image: url(../images/stars1.png);
     object-fit: cover;
     background-position: center bottom;
     font-size: 30px;
     font-weight: strong; }
     .nav1:hover img {
-      background-image: url(/images/stars1.png);
+      background-image: url(../images/stars1.png);
       object-fit: cover;
       object-position: right; }
   .nav1__cont1 {
@@ -94,7 +94,7 @@ h4 {
 
 #body1 {
   font-family: "Sarabun", sans-serif;
-  background-image: url(/images/dp1-1.jpg);
+  background-image: url(../images/dp1-1.jpg);
   color: white; }
   #body1 #imgindex {
     width: 100%;
@@ -110,7 +110,7 @@ INDEX ----------
 ----------------------------------*/
 #body2 {
   font-family: "Sarabun", sans-serif;
-  background-image: url(/images/bgseccion2-4.jpg);
+  background-image: url(../images/bgseccion2-4.jpg);
   color: white; }
   #body2 #imgsec2 {
     width: 100%;
@@ -127,7 +127,7 @@ INDEX ----------
       font-family: 'Monoton', cursive;
       font-size: 25px;
       text-align: center;
-      background-image: url(/images/bggif4.jpg);
+      background-image: url(../images/bggif4.jpg);
       object-fit: contain;
       background-position: center center;
       margin: 5px;
@@ -136,7 +136,7 @@ INDEX ----------
       border-radius: 5%;
       width: 220px; }
       #body2 .index-cont1__a:hover {
-        background-image: url(/images/robotrock.gif);
+        background-image: url(../images/robotrock.gif);
         object-fit: cover;
         background-position: center center;
         font-size: 25px;
@@ -341,7 +341,7 @@ SECCION 3 ---------------------------------
 ---------------------------------------------------------------------------------------*/
 #body3 {
   font-family: "Sarabun", sans-serif;
-  background-image: url(/images/bgwall4.jpg);
+  background-image: url(../images/bgwall4.jpg);
   color: white; }
   #body3 #imgsec3 {
     width: 100%;
@@ -465,7 +465,7 @@ SECCION 5 -----------------------------------------------
 --------------------------------------------------------------------------------------*/
 #body5 {
   font-family: 'Sarabun', sans-serif;
-  background-image: url(/images/dp5-3.jpg);
+  background-image: url(../images/dp5-3.jpg);
   object-fit: contain;
   color: white; }
   #body5 p {
@@ -520,7 +520,7 @@ FOOTER--------------------------------------------------
     margin: 2px; }
   #body1 {
     font-family: 'Sarabun', sans-serif;
-    background-image: url(/images/dp1-1.jpg);
+    background-image: url(../images/dp1-1.jpg);
     color: white; }
   a {
     text-decoration: none; }
@@ -586,7 +586,11 @@ NAVEGADOR:::::::::::MOBILE:::::::::------------
     gap: 0px 0px;
     grid-auto-flow: column;
     justify-items: center;
-    grid-template-areas: "home" "begg" "robots" "disco" "join";
+    grid-template-areas: "home"
+ "begg"
+ "robots"
+ "disco"
+ "join";
     width: 100%;
     font-family: 'Monoton', cursive;
     font-size: 25px;
@@ -614,7 +618,11 @@ FOOTER::::::::::::::::::::MOBILE::::::::::::::::::::----------------------------
     gap: 0px 0px;
     grid-auto-flow: row;
     justify-items: center;
-    grid-template-areas: "backed" "this" "instagram" "youtube" "twitter"; }
+    grid-template-areas: "backed"
+ "this"
+ "instagram"
+ "youtube"
+ "twitter"; }
   .backed {
     grid-area: backed; }
   .this {
@@ -650,14 +658,14 @@ INDEX ----------
     font-family: 'Monoton', cursive;
     font-size: 25px;
     text-align: center;
-    background-image: url(/images/bggif4.jpg);
+    background-image: url(../images/bggif4.jpg);
     object-fit: contain;
     background-position: center center;
     opacity: .5;
     border-radius: 5%;
     width: 220px; }
   .index-cont1__a:active {
-    background-image: url(/images/robotrock.gif);
+    background-image: url(../images/robotrock.gif);
     object-fit: cover;
     background-position: center center;
     font-size: 25px;
@@ -877,7 +885,14 @@ ARTICULOS ---------
     grid-template-columns: 0.6fr 0.7fr 0.6fr 0.7fr 0.6fr 0.9fr 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-    grid-template-areas: "art1" "art2" "art3" "art4" "art5" "art6" "art7" "art8"; }
+    grid-template-areas: "art1"
+ "art2"
+ "art3"
+ "art4"
+ "art5"
+ "art6"
+ "art7"
+ "art8"; }
   .art1 {
     grid-area: art1; }
   .art2 {
@@ -980,7 +995,8 @@ SECCION 3:::::::::::::::::::::::::::::::::MOBILE::::::::::::::::::::::::::::::--
     grid-template-rows: 1fr 0.6fr;
     gap: 2px 2px;
     grid-auto-flow: column;
-    grid-template-areas: "art1-3" "art2-3"; }
+    grid-template-areas: "art1-3"
+ "art2-3"; }
   .art1-3 {
     grid-area: art1-3; }
   .art2-3 {

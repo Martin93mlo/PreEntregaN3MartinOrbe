@@ -151,23 +151,22 @@ INDEX ----------
 /*------------------------------------
 ARTICULOS ---------
 ------------------------------------*/
-/*------------------------------------*/
-.art1 {
+.art1, .art2, .art3, .art4, .art5, .art6, .art7, .art8 {
   margin: 15px;
   justify-self: stretch;
   list-style: none; }
-  .art1 a {
+  .art1 a, .art2 a, .art3 a, .art4 a, .art5 a, .art6 a, .art7 a, .art8 a {
     color: white;
     background-color: #410d72;
     border: 1px solid white;
     border-radius: 25px;
     padding: 5px;
     margin: 3px; }
-    .art1 a:hover {
+    .art1 a:hover, .art2 a:hover, .art3 a:hover, .art4 a:hover, .art5 a:hover, .art6 a:hover, .art7 a:hover, .art8 a:hover {
       color: red;
       font-weight: bold;
       border: 1px solid red; }
-  .art1 img {
+  .art1 img, .art2 img, .art3 img, .art4 img, .art5 img, .art6 img, .art7 img, .art8 img {
     float: right;
     padding: 8px;
     margin: 5px;
@@ -175,165 +174,23 @@ ARTICULOS ---------
     min-width: 150px; }
 
 /*------------------------------------*/
-.art2 {
-  margin: 15px;
-  justify-self: stretch;
-  list-style: none; }
-  .art2 a {
-    color: white;
-    background-color: #410d72;
-    border: 1px solid white;
-    border-radius: 25px;
-    padding: 5px;
-    margin: 3px; }
-    .art2 a:hover {
-      color: red;
-      font-weight: bold;
-      border: 1px solid red; }
-  .art2 img {
-    float: right;
-    padding: 8px;
-    margin: 5px;
-    width: 400px;
-    min-width: 150px; }
+.art2 img {
+  float: left; }
 
 /*------------------------------------*/
-.art3 {
-  margin: 15px;
-  justify-self: stretch;
-  list-style: none; }
-  .art3 a {
-    color: white;
-    background-color: #410d72;
-    border: 1px solid white;
-    border-radius: 25px;
-    padding: 5px;
-    margin: 3px; }
-    .art3 a:hover {
-      color: red;
-      font-weight: bold;
-      border: 1px solid red; }
-  .art3 img {
-    float: right;
-    padding: 8px;
-    margin: 5px;
-    width: 400px;
-    min-width: 150px; }
+/*------------------------------------*/
+.art4 img {
+  float: left; }
 
 /*------------------------------------*/
-.art4 {
-  margin: 15px;
-  justify-self: stretch;
-  list-style: none; }
-  .art4 a {
-    color: white;
-    background-color: #410d72;
-    border: 1px solid white;
-    border-radius: 25px;
-    padding: 5px;
-    margin: 3px; }
-    .art4 a:hover {
-      color: red;
-      font-weight: bold;
-      border: 1px solid red; }
-  .art4 img {
-    float: right;
-    padding: 8px;
-    margin: 5px;
-    width: 400px;
-    min-width: 150px; }
+/*------------------------------------*/
+.art6 img {
+  float: left; }
 
 /*------------------------------------*/
-.art5 {
-  margin: 15px;
-  justify-self: stretch;
-  list-style: none; }
-  .art5 a {
-    color: white;
-    background-color: #410d72;
-    border: 1px solid white;
-    border-radius: 25px;
-    padding: 5px;
-    margin: 3px; }
-    .art5 a:hover {
-      color: red;
-      font-weight: bold;
-      border: 1px solid red; }
-  .art5 img {
-    float: right;
-    padding: 8px;
-    margin: 5px;
-    width: 400px;
-    min-width: 150px; }
-
 /*------------------------------------*/
-.art6 {
-  margin: 15px;
-  justify-self: stretch;
-  list-style: none; }
-  .art6 a {
-    color: white;
-    background-color: #410d72;
-    border: 1px solid white;
-    border-radius: 25px;
-    padding: 5px;
-    margin: 3px; }
-    .art6 a:hover {
-      color: red;
-      font-weight: bold;
-      border: 1px solid red; }
-  .art6 img {
-    float: right;
-    padding: 8px;
-    margin: 5px;
-    width: 400px;
-    min-width: 150px; }
-
-/*------------------------------------*/
-.art7 {
-  margin: 15px;
-  justify-self: stretch;
-  list-style: none; }
-  .art7 a {
-    color: white;
-    background-color: #410d72;
-    border: 1px solid white;
-    border-radius: 25px;
-    padding: 5px;
-    margin: 3px; }
-    .art7 a:hover {
-      color: red;
-      font-weight: bold;
-      border: 1px solid red; }
-  .art7 img {
-    float: right;
-    padding: 8px;
-    margin: 5px;
-    width: 400px;
-    min-width: 150px; }
-
-/*------------------------------------*/
-.art8 {
-  margin: 15px;
-  justify-self: stretch;
-  list-style: none; }
-  .art8 a {
-    color: white;
-    background-color: #410d72;
-    border: 1px solid white;
-    border-radius: 25px;
-    padding: 5px;
-    margin: 3px; }
-    .art8 a:hover {
-      color: red;
-      font-weight: bold;
-      border: 1px solid red; }
-  .art8 img {
-    float: right;
-    padding: 8px;
-    margin: 5px;
-    width: 400px;
-    min-width: 150px; }
+.art8 img {
+  float: left; }
 
 /*------------------------------------*/
 /*-----------------------------------------------------------------------------------------
